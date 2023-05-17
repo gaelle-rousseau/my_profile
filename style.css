@@ -1,0 +1,81 @@
+/* Colors and Fonts*/
+
+body{
+  background-color: rgb(240, 240, 240);
+  color: #50514F;
+  font-family: 'calibri', sans-serif;
+}
+
+p{
+  font-family: 'calibri', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+h1{
+  margin-top: 0px;
+  color: #EB6534;
+  font-size: 50px;
+  font-family: 'calibri', sans-serif;
+  text-align: center;
+}
+
+h2{
+  margin-top: 0px;
+  color: #EB6534;
+  font-size: 40px;
+}
+
+.btn-blue {
+    text-decoration: none;
+    color: #1A0EAB;
+    font-size: 25px;
+    text-align: center;
+
+	background-color: #EB6534;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.btn-blue:hover{
+    color : #5E0061;
+}
+
+
+/* Custom design with class */
+
+.container {
+    margin: 35px auto;
+    width: 800px;
+}
+
+.container img {
+	border-radius: 100%;
+}
+.card-white {
+	background: white;
+	border-radius: 3px;
+	margin-bottom: 40px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.2);
+	text-align: center;
+	padding: 20px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+.list-inline i:hover {
+	opacity: 70%;
+}
